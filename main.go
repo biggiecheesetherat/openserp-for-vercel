@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/karust/openserp/cmd"
+	"github.com/karust/biggiecheesetherat/openserp-for-vercel/cmd"
 	"github.com/sirupsen/logrus"
 )
 
