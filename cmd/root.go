@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/karust/openserp/core"
+	"github.com/biggiecheesetherat/openserp-for-vercel/core"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
