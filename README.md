@@ -1,4 +1,4 @@
-# OpenSERP (Search Engine Results Page)
+# OpenSERP For Vercel (Search Engine Results Page)
 ![OpenSERP](/logo.png)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/karust/openserp)](https://goreportcard.com/report/github.com/karust/openserp)
@@ -8,18 +8,6 @@
 API access for search engines results if available isn't free.
 
 Using OpenSERP, you can get search results from **Google**, **Yandex**, **Baidu** via API or CLI!
-
-See [Docker](#docker) and [CLI](#cli) usage examples below ([search](#search), [images](#images)).
-
-## Docker usage  <a name="docker"></a> 🐳
-* Run API server:
-```bash
-# Use prebuilt image
-docker run -p 127.0.0.1:7000:7000 -it karust/openserp serve -a 0.0.0.0 -p 7000
-
-# Or build one and run using docker-compose.yaml
-docker-compose up --build
-```
 
 ### Request parameters
 | Param | Description                                                  |
@@ -59,30 +47,6 @@ Get 100 **Google** results for `golden puppy`:
 ```
 GET http://127.0.0.1:7000/google/image?text=golden puppy&limit=100
 ```
-
-
-## CLI <a name="cli"></a> ⌨️
-* Use `-h` flag to see commands.
-* You can use `serve` command to serve API:
-```bash
-openserp serve 
-```
-* Or print results in CLI using `search` command:
-```bash
-openserp search google "how to get banned from google fast" # Change `google` to `yandex` or `baidu`
-```
-As a result you should get JSON output containting search results:
-```json
-[
- {
-  "rank": 1,
-  "url": "https://www.cyberoptik.net/blog/6-sure-fire-ways-to-get-banned-from-google/",
-  "title": "11 Sure-Fire Ways to Get Banned From Google | CyberOptik",
-  "description": "How To Get Banned From Google · 1. Cloaking: The Art of Deception · 2. Plagiarism: Because Originality is Overrated · 3. Keyword Stuffing: More is Always Better · 4 ...",
-  "ad": false
- },
-]
- ```
 
  ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
