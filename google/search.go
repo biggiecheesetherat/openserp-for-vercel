@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-rod/rod"
 	"github.com/go-rod/rod/lib/proto"
-	"github.com/karust/openserp/core"
+	"github.com/biggiecheesetherat/openserp-for-vercel/core"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/time/rate"
 )
