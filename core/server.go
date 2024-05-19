@@ -8,6 +8,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/time/rate"
+	"github.com/tbxark/g4vercel"
 )
 
 type SearchEngine interface {
