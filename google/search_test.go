@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/karust/openserp/core"
+	"github.com/biggiecheesetherat/openserp-for-vercel/core"
 )
 
 var browser *core.Browser
