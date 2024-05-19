@@ -7,7 +7,7 @@
 <!-- ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/karust/openserp/latest) -->
 API access for search engines results if available isn't free.
 
-Using OpenSERP, you can get search results from **Google**, **Yandex**, **Baidu** via API or CLI!
+Using OpenSERP, you can get search results from **Google**, **Yandex (Not Supported for Vercel)**, **Baidu (Not Supported for Vercel)** via API or CLI!
 
 ### Request parameters
 | Param | Description                                                  |
