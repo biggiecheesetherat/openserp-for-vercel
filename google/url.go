@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/karust/openserp/core"
+	"github.com/biggiecheesetherat/openserp-for-vercel/core"
 	"github.com/sirupsen/logrus"
 )
 
