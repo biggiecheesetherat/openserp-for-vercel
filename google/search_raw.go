@@ -6,7 +6,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/corpix/uarand"
-	"github.com/karust/openserp/core"
+	"github.com/biggiecheesetherat/openserp-for-vercel/core"
 	"github.com/sirupsen/logrus"
 )
 
